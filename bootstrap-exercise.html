@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+</head>
+<body>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>TUMO UI Bootstrap Practice</h1>
+                <p>This is a practice file to help you get a bit familiar with Bootstrap.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exercise 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Exercise 1: Add Classes</h2>
+                <p>Let's practice adding classes to an element using the element below. Save this file and refesh the browser every time you make a change. Try these classes:</p>
+                <ul>
+                    <li><code>h1</code></li>
+                    <li><code>h5</code></li>
+                    <li><code>bg-success</code></li>
+                    <li><code>bg-warning</code></li>
+                    <li><code>text-primary</code></li>
+                    <li><code>text-uppercase</code></li>
+                    <li><code>text-lowercase</code></li>
+                </ul>
+
+                <!-- Exercise Begins Here -->
+                <p class="">Add classes to me!</p>
+                <!-- End Exercise -->
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Exercise 2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Exercise 2: Bootstrap's "Layout Grid"</h2>
+                <p><a href="https://getbootstrap.com/docs/3.3/examples/grid/" target="_blank">Bootstrap's grid system is very simple to use</a>. Let's try messing around with it:</p>
+                <ul>
+                    <li>In the exercise below, give the first div a <code>container</code> class.</li>
+                    <li>Give the next div a <code>row</code> class. (Containers can have 1 or more rows.)</li>
+                    <li>Give each div within the row <code>col-md-4</code> class. Take a look at the layout.</li>
+                    <li>All the columns inside the row should add up to 12. Try other combinations, like <code>col-md-3</code> <code>col-md-6</code> <code>col-md-3</code> or <code>col-md-7</code> <code>col-md-3</code> <code>col-md-2</code>.</li>
+                    <li>Now add a new container and row with at least 2 columns.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Exercise Begins Here -->
+    <div class="container"> <!-- Add class="container" -->
+        <div class="row"> <!-- Add class="row" -->
+            <div class="bg-danger"> First Column</div> <!-- Experiment with column classes -->
+            <div class="bg-primary">Second</div> <!-- Experiment with column classes -->
+            <div class="bg-warning">Third</div> <!-- Experiment with column classes -->
+        </div>
+    </div>
+    <!-- Exercise Ends Here -->
+
+    <!-- Exercies 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Exercise 3: Forms</h2>
+                <p>Bootstrap helps with forms too. However, forms follow some rules, so pay attention to that in this exercise:</p>
+                <ul>
+                    <li>Every form element should have an <code>id</code>. Add <code>id="formControl1"</code> to the text field below and <code>id="formControl2"</code> to the select box below.</li>
+                    <li>The label for the form control (My Textbox and My Select) should use the <code>label</code> element. Change the <code>div</code> to a <code>label</code> for both form controls.</li>
+                    <li>Every label should have a <code>for</code> attribute equal to the id of its corresponding form control. Add <code>for="formControl1"</code> to the label for the text field and <code>for="formControl2"</code> to the label for the select box.</li>
+                    <li>To activate the Bootstrap styling, add the <code>form-group</code> class on the div surrounding each form control, and add <code>form-control</code> to the text field and the select.</li>
+                    <li>Now add a new form from scratch.</li>
+                </ul>
+
+                <!-- Exercise Begins Here -->
+                <form>
+                    <div class=""> <!-- Give me the boostrap class "form-group" -->
+                        <div>My Textbox</div> <!-- Make me a label, associate me with a form control using the for tag -->
+                        <input/> <!-- Give me a unique id -->
+                        <small>Some help text for my text field</small>
+                    </div>
+                    <div class=""> <!-- Give me the boostrap class "form-group" -->
+                        <div>My Select</div> <!-- Make me a label, associate me with a form control using the for tag -->
+                        <select> <!-- Give me a unique id -->
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                        <small>Some help text for my select</small>
+                    </div>
+                </form>
+                <!-- Exercise Ends Here -->
+
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
